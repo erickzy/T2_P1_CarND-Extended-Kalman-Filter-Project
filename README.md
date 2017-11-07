@@ -63,16 +63,24 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## Tools Create
 * RMSE:
-$$ RMSE = \sqrt{\frac{1}n \sum^n_{t=1}(x^{est}_t - x^{true}_t)^2}  $$
+
+`$$ RMSE = \sqrt{\frac{1}n \sum^n_{t=1}(x^{est}_t - x^{true}_t)^2}  $$`
+
 ![](http://latex.codecogs.com/gif.latex?RMSE%20%3D%20%5Csqrt%7B%5Cfrac%7B1%7Dn%20%5Csum%5En_%7Bt%3D1%7D%28x%5E%7Best%7D_t%20-%20x%5E%7Btrue%7D_t%29%5E2%7D)
+
 * Jacobian matrix
-$$ h(x) \approx h(\mu) +\frac{\partial h(\mu)}{\partial x}(x - \mu) $$
+
+`$$ h(x) \approx h(\mu) +\frac{\partial h(\mu)}{\partial x}(x - \mu) $$`
+
 ![](http://latex.codecogs.com/gif.latex?h%28x%29%20%5Capprox%20h%28%5Cmu%29%20&plus;%5Cfrac%7B%5Cpartial%20h%28%5Cmu%29%7D%7B%5Cpartial%20x%7D%28x%20-%20%5Cmu%29)
 
 ## Sensor Fusion General Processing Flow
-![][./Fusion flow.jpg]
+![](./img/Fusion flow.jpg)
+
 ## Kalman filter 5 key process 
-![][./Kalman Filter.jpg]
+![](./img/Kalman Filter.jpg)
+
+
 
 ## Call for IDE Profiles Pull Requests
 
@@ -83,9 +91,11 @@ I use the Visual Studio Code  to edit my code , there are some useful plugins re
 
 ## Simulator Result
 * DATA1
-![][./Data1.jpg]
+![](./img/Data1.png)
+
 
 * DATA2
-![][Data2.jpg]
+![](./img/Data2.png)
+
 
 
