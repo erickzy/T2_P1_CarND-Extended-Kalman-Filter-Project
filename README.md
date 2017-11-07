@@ -75,10 +75,10 @@ OUTPUT: values provided by the c++ program to the simulator
 ![](http://latex.codecogs.com/gif.latex?h%28x%29%20%5Capprox%20h%28%5Cmu%29%20&plus;%5Cfrac%7B%5Cpartial%20h%28%5Cmu%29%7D%7B%5Cpartial%20x%7D%28x%20-%20%5Cmu%29)
 
 ## Sensor Fusion General Processing Flow
-![](./img/Fusion flow.jpg)
+![](./img/Fusion flow.png)
 
 ## Kalman filter 5 key process 
-![](./img/Kalman Filter.jpg)
+![](./img/Kalman Filter.png)
 
 
 
